@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_light"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register for free."
+            android:textColor="@color/primary_text"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_text"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="@string/description2"/>
+        <EditText
+            android:maxLines="1"
+            android:padding="3dp"
+            android:id="@+id/getFirstName"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:hint="First Name"
+            android:textColorHint="@color/secondary_text" />
+
+        <EditText
+            android:maxLines="1"
+            android:padding="3dp"
+            android:id="@+id/getFamilyName"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:hint="Family Name"
+            android:textColorHint="@color/secondary_text" />
+
+        <EditText
+            android:maxLines="1"
+            android:layout_marginTop="8dp"
+            android:inputType="textEmailAddress"
+            android:padding="3dp"
+            android:id="@+id/getRegistrationEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:textColor="@color/primary_text"
+            android:hint="E-mail"
+            android:textColorHint="@color/secondary_text" />
+
+        <EditText
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:padding="3dp"
+            android:id="@+id/getRegistrationPassword"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:hint="password"
+            android:textColorHint="@color/secondary_text" />
+
+        <EditText
+            android:inputType="phone"
+            android:padding="3dp"
+            android:id="@+id/getTelephone"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:hint="telephone"
+            android:textColorHint="@color/secondary_text" />
+
+        <EditText
+            android:maxLines="3"
+            android:padding="3dp"
+            android:id="@+id/getAddress"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/icons"
+            android:hint="address"
+            android:textColorHint="@color/secondary_text" />
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:id="@+id/chooseCostumer"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@color/accent"
+                android:text="Register me!"
+                android:padding="5dp"
+                android:textColor="@color/secondary_text" />
+
+
+    </LinearLayout>
+</RelativeLayout>

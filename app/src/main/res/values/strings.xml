@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Unitycom</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="description">Our project aims to connect local farmers and costumers willing to buy fresh food.</string>
+    <string name="description2">As part of our community, you will be able to either sell or buy homemade products and reach people who share your interest in organic food.</string>
+    <string name="info_app1">UnityCom is a digital platform that connects local farmers with customers, giving them access to organic healthy and tasty, non-processed or chemically treated food.</string>
+    <string name="info_app2">These days, few foods escape some of the mass-production techniques used to retard spoilage and enhance appearance and taste.</string>
+    <string name="info_app3">By providing acces to organic, nutrient-denser food, containing no chemicals or processed additives, UnityCom not only prevents major and minor diseases, illnesses and disorders, but also increases food security and ensures healthy, safe lives.</string>
+    <string name="info_app4">To enter our community, you would need to create an account. Once logged in to your account, you can choose, from the search list, your desired products, one at a time, and you’ll be shown the farmers who have the selected product available.</string>
+    <string name="info_app5">If you want more information about the farmers, simply tap on their boxes. This way, you can find out their location, pick the one more suitable for you and contact the farmer by phone in order to pick the products straight from there. If you are also a farmer, you can update your profile from the section “My profile” and check the vegetables, fruits or other homemade products that you have available.</string>
+</resources>

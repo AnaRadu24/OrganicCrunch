@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_centerInParent="true"
+    android:background="@color/primary_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/FarmerName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Ana's Farming Paradise"
+            android:textColor="@color/salmon"
+            android:textSize="30sp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/FarmerPicture"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="2"/>
+    </LinearLayout>
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/FarmerDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descriere"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/ProductsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/Product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Blue Tomatoes"
+            android:textSize="25sp" />
+        <CheckBox
+            android:id="@+id/Product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Mouthwatering Cucumbers"
+            android:textSize="25sp" />
+        <CheckBox
+            android:id="@+id/Product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Organic Candy Apples"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/FarmerContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact:"
+            android:textColor="@color/avocado"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/FarmerTelepohone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="0732351890"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/FarmerLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location:"
+            android:textColor="@color/avocado"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/FarmerAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Ilfov, Domnesti, Grocery Street, No.100"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/FarmerInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance:"
+            android:textColor="@color/avocado"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/FarmerAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="5km"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/FarmerRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isIndicator="false" />
+
+    <ImageView
+        android:id="@+id/FarmPicture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/ic_launcher" />
+</LinearLayout>

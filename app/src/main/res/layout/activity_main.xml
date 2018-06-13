@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/primary"
+    android:paddingTop="40dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/FarmPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="0dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to UnityCom!"
+            android:gravity="center"
+            android:textColor="@color/accent"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:text="The easiest way to get fresh products for you and your family!"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/icons"
+        android:paddingBottom="25dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Log in!"
+        android:textSize="20sp"
+        android:background="@color/accent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/secondary_text"
+        android:stateListAnimator="@null"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/divider"
+        android:hint="E-mail Address"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/primary_text"
+
+        android:stateListAnimator="@null"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/divider"
+        android:hint="password"
+        android:textColor="@color/primary_text"
+        android:inputType="textPassword"
+        android:stateListAnimator="@null"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you a new user?"
+        android:fontFamily="monospace"
+        android:textColor="@color/White"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="5dp"
+        />
+    <Button
+        android:id="@+id/registration"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/accent"
+        android:text="Register!"
+        android:textColor="@color/secondary_text"
+
+        android:stateListAnimator="@null"
+        />
+
+    <Button
+        android:id="@+id/information_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn more..."
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:background="@color/primary"
+        android:fontFamily="monospace"
+        android:textColor="@color/White"
+        android:stateListAnimator="@null"
+        />
+
+</LinearLayout>

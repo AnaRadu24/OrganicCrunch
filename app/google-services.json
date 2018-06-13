@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "424902592963",
+    "firebase_url": "https://unitycomandroid.firebaseio.com",
+    "project_id": "unitycomandroid",
+    "storage_bucket": "unitycomandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424902592963:android:0bbd1bcaaaf84ea5",
+        "android_client_info": {
+          "package_name": "com.dragonbyte.unitycom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424902592963-bctns143vj59nhi9ulckhiu91oauctj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dragonbyte.unitycom",
+            "certificate_hash": "6bfbe330450cbbb9e53a4ca8700627fa8d5f0aca"
+          }
+        },
+        {
+          "client_id": "424902592963-p2d0q6r6k3mtn9efs1pqe9bkv5l7e8au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgI6Y2DHwZM7I2ynqvKZYtpPITjZabsjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424902592963-p2d0q6r6k3mtn9efs1pqe9bkv5l7e8au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
